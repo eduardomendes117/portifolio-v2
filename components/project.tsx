@@ -114,7 +114,7 @@ const Projects = () => {
       title: "Notes App",
       category: "Landing page",
       description:
-        "Notes App é uma aplicação web moderna e intuitiva que permite aos usuários criar, editar e gerenciar suas anotações de forma rápida e prática.",
+        "Notes App é uma aplicação web moderna e intuitiva que permite aos usuários criar, editar suas anotações de forma rápida e prática.",
       icon: <MdNoteAlt />,
       iconBg: "bg-blue-900/20",
       iconBorder: "border-blue-700/50",
