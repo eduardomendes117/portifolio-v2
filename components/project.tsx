@@ -5,7 +5,26 @@ import { SiNetflix } from "react-icons/si";
 import { FaSpotify } from "react-icons/fa";
 import { MdNoteAlt } from "react-icons/md";
 
-const ProjectCard = ({ project }) => {
+interface Project {
+  title: string;
+  category: string;
+  description: string;
+  icon: React.ReactNode;
+  iconBg: string;
+  iconBorder: string;
+  tags: string[];
+  github: string;
+  cardTheme: {
+    tag: string;
+    color: string;
+  };
+}
+
+interface ProjectCardProps {
+  project: Project;
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const {
     title,
     category,
@@ -60,7 +79,7 @@ const ProjectCard = ({ project }) => {
 };
 
 const Projects = () => {
-  const projects = [
+  const projects: Project[] = [
     {
       title: "Página Xbox Series",
       category: "Landing page",
