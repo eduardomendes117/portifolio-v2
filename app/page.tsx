@@ -1,7 +1,7 @@
-import { Link } from "@heroui/link";
 import { button as buttonStyles } from "@heroui/theme";
-import { IconWaving } from "@/components/IconWaving";
+import { Link } from "@heroui/link";
 
+import { IconWaving } from "@/components/IconWaving";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
