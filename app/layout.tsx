@@ -45,7 +45,7 @@ export default function RootLayout({
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:10px_10px]">
             <Navbar />
-            <main className="container mx-auto max-w-7xl py-16 px-6 flex items-center justify-center h-[calc(100vh-100px)]">
+            <main className="container mx-auto max-w-7xl py-16 px-6 flex items-center justify-center h-[calc(100vh-150px)]">
               {children}
             </main>
             <Project />
