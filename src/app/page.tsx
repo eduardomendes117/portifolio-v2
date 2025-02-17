@@ -31,12 +31,12 @@ export default function Home() {
       </header>
 
       <main className="pt-20">
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <section className="relative h-[calc(100svh-5rem)] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-[-2rem]">
             {[0.05, 1, 0.05].map((opacity, index) => (
               <div
                 key={index}
-                className={`text-[10vw] md:text-[6vw] font-extrabold uppercase tracking-tighter`}
+                className={`text-[15vw] md:text-[6vw] font-extrabold uppercase tracking-tighter`}
                 style={{ opacity }}
               >
                 Frontend
