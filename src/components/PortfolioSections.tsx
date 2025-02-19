@@ -127,13 +127,13 @@ export default function PortfolioSections() {
                       href={project.demoLink}
                       className="px-4 py-2 bg-white/5 rounded-full text-sm hover:bg-white/10 transition-colors"
                     >
-                     <Eye className="w-4 inline mr-1"/> Demo
+                      <Eye className="w-4 inline mr-1" /> Demo
                     </a>
                     <a
                       href={project.githubLink}
                       className="px-4 py-2 bg-white/5 rounded-full text-sm hover:bg-white/10 transition-colors"
                     >
-                      <Github className="w-4 inline mr-1"/> GitHub
+                      <Github className="w-4 inline mr-1" /> GitHub
                     </a>
                   </div>
                 </div>
@@ -288,9 +288,12 @@ export default function PortfolioSections() {
             <input
               type="text"
               readOnly
+              aria-label="Email"
+              className="w-full px-4 py-3 text-center rounded-full bg-gray-800 text-white
+            border border-gray-600 focus:outline-none cursor-pointer"
               value="eduardo12mendes2016@gmail.com"
-              className="w-full px-4 py-3 text-center rounded-full bg-gray-800 text-white border border-gray-600 focus:outline-none cursor-pointer"
             />
+            
             {/* Span cobrindo o input */}
             <span
               className="absolute inset-0 flex items-center justify-center text-sm text-white bg-white/10 backdrop-blur-lg rounded-full cursor-pointer opacity-0 hover:opacity-100 group-hover:opacity-100 transition-opacity duration-300"
@@ -302,7 +305,6 @@ export default function PortfolioSections() {
                   setTimeout(() => copiedText.classList.add("opacity-0"), 1500);
                 }
               }}
-              
             >
               Clique para copiar
             </span>
