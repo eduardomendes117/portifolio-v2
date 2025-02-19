@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "framer-motion": "^12.4.3",
+    "framer-motion": "^12.4.4",
     "lucide-react": "^0.475.0",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "scrollreveal": "^4.0.9",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
@@ -21,6 +22,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/scrollreveal": "^0.0.11",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "postcss": "^8",
