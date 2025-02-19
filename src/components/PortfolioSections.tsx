@@ -297,9 +297,12 @@ export default function PortfolioSections() {
               onClick={() => {
                 navigator.clipboard.writeText("eduardo12mendes2016@gmail.com");
                 const copiedText = document.getElementById("copiedText");
-                copiedText.classList.remove("opacity-0");
-                setTimeout(() => copiedText.classList.add("opacity-0"), 1500);
+                if (copiedText) {
+                  copiedText.classList.remove("opacity-0");
+                  setTimeout(() => copiedText.classList.add("opacity-0"), 1500);
+                }
               }}
+              
             >
               Clique para copiar
             </span>
