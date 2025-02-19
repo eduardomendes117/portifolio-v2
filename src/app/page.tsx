@@ -82,7 +82,7 @@ export default function Home() {
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="lucide lucide-chevron-down"
+              className="lucide lucide-chevron-down"
             >
               <path d="m6 9 6 6 6-6" />
             </svg>
