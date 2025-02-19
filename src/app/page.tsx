@@ -3,8 +3,6 @@
 // page.tsx
 import PortfolioSections from "@/components/PortfolioSections";
 import Link from "next/link";
-import Card from "../components/Cards";
-import { Github, Linkedin, Mail, Facebook } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -12,8 +10,6 @@ const navLinks = [
   { href: "/sobre", label: "Sobre" },
   { href: "/contato", label: "Contato" },
 ];
-
-const technologies = ["React", "Next.js", "TypeScript", "Tailwind CSS"];
 
 export default function Home() {
   return (
